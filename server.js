@@ -20,6 +20,15 @@ connectDB();
 app.use(cors());
 app.use(express.json());
 
+// Root Route
+app.get('/', (req, res) => {
+  res.json({ 
+    message: 'Voyara API is Running', 
+    env: process.env.NODE_ENV || 'development',
+    time: new Date().toISOString()
+  });
+});
+
 // API Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/packages', packageRoutes);
@@ -31,6 +40,12 @@ app.use('/api/reviews', reviewRoutes);
 // Optional: Serve frontend static files if running together
 app.use(express.static(path.join(__dirname, '../frontend')));
 
-app.listen(PORT, () => {
-  console.log(`Voyara Backend Server running on http://localhost:${PORT}`);
-});
+// Export app for Serverless (Vercel)
+module.exports = app;
+
+// Only listen if running directly (Local Development)
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Voyara Backend Server running on http://localhost:${PORT}`);
+  });
+}
