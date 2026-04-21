@@ -1,0 +1,168 @@
+[
+  {
+    "id": "maldives",
+    "title": "Maldives Bliss Package",
+    "type": "international",
+    "category": "honeymoon",
+    "location": "Maldives",
+    "duration": "5 Days / 4 Nights",
+    "price": 85999,
+    "image": "https://images.unsplash.com/photo-1559628233-100c798642d4?w=600&q=80",
+    "desc": "Overwater villa, candlelit dinners, snorkelling, and sunset cruises for two.",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": 4.9,
+    "reviewCount": 128,
+    "included": [
+      "Return flights (Mumbai–Malé)",
+      "4 nights overwater villa",
+      "All meals & beverages",
+      "Snorkelling & water sports",
+      "Sunset cruise for two",
+      "Airport speedboat transfer"
+    ],
+    "meta": [
+      "✈️ Flights Included",
+      "🍽️ Meals Included"
+    ]
+  },
+  {
+    "id": "rajasthan",
+    "title": "Royal Rajasthan Family Tour",
+    "type": "national",
+    "category": "family",
+    "location": "Rajasthan",
+    "duration": "8 Days / 7 Nights",
+    "price": 32499,
+    "image": "https://www.bing.com/th/id/OIP.b4V2HUxuSzTaQMPpCL2cjgHaEK?w=274&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+    "desc": "Forts, palaces, camel rides, and folk cultural evenings for the whole family.",
+    "badges": [],
+    "rating": 4.7,
+    "reviewCount": 94,
+    "included": [
+      "AC transport throughout",
+      "7 nights 4-star hotels",
+      "Daily breakfast & dinner",
+      "Camel safari in Jaisalmer",
+      "Guided fort & palace tours",
+      "Folk cultural evening"
+    ],
+    "meta": [
+      "🚌 Transport Included",
+      "🏨 4-Star Hotels"
+    ]
+  },
+  {
+    "id": "manali",
+    "title": "Himalayan Adventure Rush",
+    "type": "national",
+    "category": "adventure",
+    "location": "Manali",
+    "duration": "6 Days / 5 Nights",
+    "price": 18999,
+    "image": "manali.jpeg",
+    "desc": "Paragliding, river rafting, trekking, and snow sports in the mighty Himalayas.",
+    "badges": [
+      "New"
+    ],
+    "rating": 4.5,
+    "reviewCount": 67,
+    "included": [
+      "Return flights or Volvo bus",
+      "5 nights 3-star hotel",
+      "Breakfast & dinner",
+      "Paragliding session",
+      "River rafting (Grade III)",
+      "Solang Valley snow activities",
+      "Rohtang Pass day trip"
+    ],
+    "meta": [
+      "🧗 All Activities",
+      "🍳 Breakfast Incl."
+    ]
+  },
+  {
+    "id": "swiss",
+    "title": "Swiss Alps Grand Tour",
+    "type": "international",
+    "category": "luxury",
+    "location": "Switzerland",
+    "duration": "7 Days / 6 Nights",
+    "price": 124999,
+    "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&q=80",
+    "desc": "Five-star chalets, private skiing lessons, scenic rail journeys, and fine dining.",
+    "badges": [],
+    "rating": 4.9,
+    "reviewCount": 43,
+    "included": [
+      "Business class flights",
+      "6 nights 5-star chalet",
+      "Breakfast & fine dining",
+      "Private skiing lessons",
+      "Swiss Rail Pass",
+      "Glacier excursion",
+      "Zurich & Interlaken tours"
+    ],
+    "meta": [
+      "✈️ Flights Included",
+      "⭐ 5-Star Hotels"
+    ]
+  },
+  {
+    "id": "bali",
+    "title": "Bali Budget Explorer",
+    "type": "international",
+    "category": "budget",
+    "location": "Bali",
+    "duration": "5 Days / 4 Nights",
+    "price": 38499,
+    "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&q=80",
+    "desc": "Temples, rice terraces, surf lessons, and a cooking class without breaking the bank.",
+    "badges": [
+      "Value Pick"
+    ],
+    "rating": 4.4,
+    "reviewCount": 211,
+    "included": [
+      "Return flights (direct)",
+      "4 nights 3-star resort",
+      "Daily breakfast",
+      "Ubud temple & rice terrace tour",
+      "1-hour surf lesson",
+      "Balinese cooking class",
+      "Scooter rental for 2 days"
+    ],
+    "meta": [
+      "🏨 3-Star Stays",
+      "🛵 Scooter Rental"
+    ]
+  },
+  {
+    "id": "london",
+    "title": "London Family Experience",
+    "type": "international",
+    "category": "family",
+    "location": "London",
+    "duration": "7 Days / 6 Nights",
+    "price": 92999,
+    "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=600&q=80",
+    "desc": "Harry Potter tour, Buckingham Palace, museums, and a West End show.",
+    "badges": [],
+    "rating": 4.8,
+    "reviewCount": 76,
+    "included": [
+      "Return economy flights",
+      "6 nights 4-star hotel (central London)",
+      "Daily breakfast",
+      "Harry Potter studio tour",
+      "Buckingham Palace visit",
+      "West End show tickets",
+      "Oyster cards for all"
+    ],
+    "meta": [
+      "✈️ Flights Included",
+      "🎭 Show Tickets"
+    ]
+  }
+]

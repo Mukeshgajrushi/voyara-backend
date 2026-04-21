@@ -1,0 +1,17 @@
+[
+  {
+    "id": "VYR-2025-08411",
+    "userId": "u1",
+    "packageId": "maldives",
+    "checkIn": "2025-10-15",
+    "checkOut": "2025-10-21",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0
+    },
+    "amount": 248000,
+    "status": "Confirmed",
+    "createdAt": "2025-04-10T10:30:00Z"
+  }
+]
