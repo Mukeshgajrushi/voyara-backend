@@ -7,6 +7,8 @@ const bookingRoutes = require('./routes/bookings');
 const adminRoutes = require('./routes/admin');
 const blogRoutes = require('./routes/blogs');
 const reviewRoutes = require('./routes/reviews');
+const destinationRoutes = require('./routes/destinations'); // NEW
+
 
 require('dotenv').config();
 const connectDB = require('./config/db');
@@ -36,6 +38,8 @@ app.use('/api/bookings', bookingRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/blogs', blogRoutes);
 app.use('/api/reviews', reviewRoutes);
+app.use('/api/destinations', destinationRoutes); // NEW
+
 
 // Optional: Serve frontend static files if running together
 app.use(express.static(path.join(__dirname, '../frontend')));
